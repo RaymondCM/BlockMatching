@@ -4,7 +4,7 @@
 #include "Capture.hpp"
 #include "Timer.hpp"
 
-int main(int *argc, int **argv) {
+int main1(int *argc, int **argv) {
 	Capture capture("../001.b8");
 	cv::Mat current = capture.getMatFrame(0);
 	cv::Mat previous = capture.getMatFrame(0);
@@ -143,3 +143,5 @@ int main(int *argc, int **argv) {
 	system("pause");
 	return 0;
 }
+
+
