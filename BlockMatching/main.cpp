@@ -12,7 +12,7 @@ int main1(int *argc, int **argv) {
 	cv::Mat canvas = previous.clone();
 	int use_integral = true;
 
-	//Get and set properties
+	//Get and set properties 
 	int search_window = 20;
 	int search_distance = search_window / 2;
 	int edge_size = search_window + search_distance;
